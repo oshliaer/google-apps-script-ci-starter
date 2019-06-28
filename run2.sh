@@ -1,1 +1,0 @@
-npx clasp push && exit 0;
