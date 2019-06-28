@@ -7,13 +7,6 @@ build:
         code: |
           echo $CLASPRC_JSON > .clasprc.json
           echo $CLASP_JSON > .clasp.json
-    - script:
-        name: clasp install
-        code: |
-          npm cache clean -force
-          rm -rf node_modules
-          rm -f package-lock.json
-          npm i -g @google/clasp
     - npm-install
     - script:
         name: push
