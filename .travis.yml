@@ -15,4 +15,4 @@ script:
   - npm run push
   # - npx clasp --version ; cat .clasp.json
 after_failure:
-  - cat /home/travis/.npm/_logs/*-debug.log
+  - cat $(ls -t /home/travis/.npm/_logs/*-debug.log | head -1)  
