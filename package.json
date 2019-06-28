@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "",
   "scripts": {
-    "push": "clasp push"
+    "push": "clasp pull"
   },
   "dependencies": {
     "@google/clasp": "2.1.0"
