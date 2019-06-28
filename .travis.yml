@@ -8,5 +8,6 @@ before_install:
 install:
   - npm install
 script:
-  cat .clasp.json
+  - echo $CLASP
+  - cat .clasp.json
   # - npx clasp --version ; cat .clasp.json
