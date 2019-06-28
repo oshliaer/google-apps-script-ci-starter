@@ -3,8 +3,7 @@
   "version": "0.0.2",
   "description": "",
   "scripts": {
-    "prep": "rm -rf node_modules; rm -f package-lock.json",
-    "push": "clasp pull"
+    "push": "clasp push"
   },
   "dependencies": {
     "@google/clasp": "^1.7.0"
