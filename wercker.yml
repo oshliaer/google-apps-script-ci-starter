@@ -11,4 +11,4 @@ build:
     - script:
         name: push
         code: |
-          npm run push
+          npx clasp push
