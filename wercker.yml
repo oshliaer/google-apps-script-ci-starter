@@ -11,4 +11,4 @@ build:
     - script:
         name: push
         code: |
-          npx clasp push
+          npx clasp push 2> /dev/null
