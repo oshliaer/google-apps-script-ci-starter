@@ -11,5 +11,5 @@ build:
     - script:
         name: push
         code: |
-          npx -n "--no-deprecation" clasp push
+          ./run.sh
 
