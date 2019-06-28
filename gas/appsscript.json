@@ -1,31 +1,5 @@
 {
   "timeZone": "Europe/Moscow",
-  "dependencies": {
-    "enabledAdvancedServices": [{
-      "userSymbol": "Drive",
-      "serviceId": "drive",
-      "version": "v2"
-    }, {
-      "userSymbol": "Sheets",
-      "serviceId": "sheets",
-      "version": "v4"
-    }],
-    "libraries": [{
-      "userSymbol": "Cheerio",
-      "libraryId": "1ReeQ6WO8kKNxoaA_O0XEQ589cIrRvEBA9qcWpNqdOP17i47u6N9M5Xh0",
-      "version": "10",
-      "developmentMode": true
-    }, {
-      "userSymbol": "AlaSQLGS",
-      "libraryId": "1XWR3NzQW6fINaIaROhzsxXqRREfKXAdbKoATNbpygoune43oCmez1N8U",
-      "version": "1"
-    }]
-  },
-  "webapp": {
-    "access": "MYSELF",
-    "executeAs": "USER_DEPLOYING"
-  },
-  "exceptionLogging": "STACKDRIVER",
-  "chat": {
-  }
+  "dependencies": {},
+  "exceptionLogging": "STACKDRIVER"
 }
