@@ -9,7 +9,11 @@ build:
           echo $CLASP_JSON > .clasp.json
     - script:
         name: clasp install
-        code: npm i -g @google/clasp
+        code: |
+          npm cache clean -force
+          rm -rf node_modules
+          rm -f package-lock.json
+          npm i -g @google/clasp
     - npm-install
     - script:
         name: push
