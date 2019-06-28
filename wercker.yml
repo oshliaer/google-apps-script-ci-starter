@@ -7,10 +7,9 @@ build:
         code: |
           echo $CLASPRC_JSON > .clasprc.json
           echo $CLASP_JSON > .clasp.json
-    - npm-install:
-        options: '--no-warnings'
+    - npm-install
     - script:
         name: push
         code: |
-          npx -n "--no-deprecation" clasp push
+          npx clasp --version
 
