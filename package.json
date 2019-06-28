@@ -1,11 +1,11 @@
 {
-  "name": "",
+  "name": "My app",
   "version": "0.0.0",
   "description": "",
   "dependencies": {
-    "@google/clasp": "^1.5.3"
+    "@google/clasp": "^2.1.0"
   },
   "devDependencies": {
-    "@types/google-apps-script": "^0.0.27"
+    "@types/google-apps-script": "0.0.54"
   }
 }
