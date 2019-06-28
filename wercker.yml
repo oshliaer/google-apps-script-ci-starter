@@ -11,5 +11,5 @@ build:
     - script:
         name: push
         code: |
-          npx clasp --version
+          npx -n "--no-deprecation" clasp push
 
