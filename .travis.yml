@@ -12,7 +12,8 @@ script:
   # - echo $CLASP
   # - echo $test
   - clasp settings
-  - npx clasp pull
+  - npx -n "--no-deprecation" clasp pull
+  # - npx clasp pull
   # - npx clasp --version ; cat .clasp.json
 after_failure:
   - cat $(ls -t /home/travis/.npm/_logs/*-debug.log | head -1)  
