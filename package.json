@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "",
   "scripts": {
-    "prep": "rm -rf node_modules; rm package-lock.json",
+    "prep": "rm -rf node_modules; rm -f package-lock.json",
     "push": "clasp pull"
   },
   "dependencies": {
