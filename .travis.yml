@@ -9,5 +9,6 @@ install:
   - npm install
 script:
   - echo $CLASP
+  - echo $test
   - cat .clasp.json
   # - npx clasp --version ; cat .clasp.json
