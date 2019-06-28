@@ -11,5 +11,5 @@ build:
     - script:
         name: push
         code: |
-          run.sh
+          run2.sh
 
