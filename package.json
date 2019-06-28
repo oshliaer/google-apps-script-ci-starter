@@ -6,7 +6,7 @@
     "push": "clasp push"
   },
   "dependencies": {
-    "@google/clasp": "^1.7.0"
+    // "@google/clasp": "^1.7.0"
   },
   "devDependencies": {
     "@types/google-apps-script": "0.0.54"
