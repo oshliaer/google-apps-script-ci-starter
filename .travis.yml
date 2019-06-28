@@ -2,7 +2,10 @@ language: node_js
 sudo: false
 node_js:
   - 10
+before_install:
+  - echo "$CLASPRC" > .clasprc.json
+  - echo "$CLASPJSON" > .clasp.json
 install:
   - npm install
 script:
-  - echo "$CLASPRC" > .clasprc && npx clasp push
+  - npx clasp --version ; cat .clasp.json
