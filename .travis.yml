@@ -3,7 +3,7 @@ sudo: false
 node_js:
   - 10
 before_install:
-  - echo "$CLASPRC" > .clasprc.json
+  - echo "$CLASPRC" > ~/.clasprc.json
   - echo "$CLASP" > .clasp.json
 install:
   - npm install
