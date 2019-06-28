@@ -12,7 +12,7 @@ script:
   # - echo $CLASP
   # - echo $test
   - clasp settings
-  - npm run push
+  - npx clasp pull
   # - npx clasp --version ; cat .clasp.json
 after_failure:
   - cat $(ls -t /home/travis/.npm/_logs/*-debug.log | head -1)  
