@@ -2,14 +2,15 @@ box: node:alpine
 
 build:
   steps:
-    - script:
-        code: export WERCKER_NPM_INSTALL_OPTIONS='--no-warnings'
+    # - script:
+        # code: export WERCKER_NPM_INSTALL_OPTIONS='--no-warnings'
     - script:
         name: init .clasprc.json .clasp.json
         code: |
           echo $CLASPRC_JSON > .clasprc.json
           echo $CLASP_JSON > .clasp.json
-    - npm-install
+    - npm-install:
+        options: '--no-warnings'
     - script:
         name: push
         code: |
