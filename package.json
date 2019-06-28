@@ -2,6 +2,9 @@
   "name": "app_wqerqr_",
   "version": "0.0.2",
   "description": "",
+  "scripts": {
+    "push": "clasp push"
+  },
   "dependencies": {
     "@google/clasp": "2.1.0"
   },

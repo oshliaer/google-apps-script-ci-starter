@@ -11,5 +11,4 @@ build:
     - script:
         name: push
         code: |
-          run2.sh
-
+          npm run push
